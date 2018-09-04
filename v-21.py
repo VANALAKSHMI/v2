@@ -1,0 +1,6 @@
+#11-CALCULATE THE POWER OF THE NUMBER
+print("CALCULATE THE POWER OF THE NUMBER")
+N=int(input("NUMBER="))
+P=int(input("POWER="))
+X=N**P
+print(X)
