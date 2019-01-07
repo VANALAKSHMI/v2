@@ -1,0 +1,10 @@
+#5
+s=(input("string:"))
+i=len(s)-1
+rev=""
+c=0
+while(i>=0):
+        if(s[i].isnumeric()==True):
+            c=c+1
+        i=i-1
+print(c)
