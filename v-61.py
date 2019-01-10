@@ -1,0 +1,11 @@
+#1
+a=int(input(""))
+re=0
+l=[]
+while(a>0):
+    r=a%10
+    re=re*10+r
+    a=a//10
+    print(re)
+    l.append(re)
+print(l.reverse())
