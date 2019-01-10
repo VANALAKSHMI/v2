@@ -1,0 +1,14 @@
+#10
+n=int(input(""))
+i=1
+a=0
+b=1
+while(i<n+1):
+    if(i<=1):
+        d=i
+    else:
+        d=a+b
+        a=b
+        b=d
+    print(d)
+    i=i+1
