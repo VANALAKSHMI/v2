@@ -1,0 +1,11 @@
+#71
+s=(input(""))
+i=len(s)-1
+rev=""
+while(i>=0):
+        rev=rev+s[i]
+        i=i-1
+if(s==rev):
+    print("yes")
+else:
+    print("no")
